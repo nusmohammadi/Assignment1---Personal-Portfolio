@@ -16,6 +16,7 @@ module.exports = function () {
     app.use(bodyParser.urlencoded({
         extended: true
     }));
+    
     app.use(bodyParser.json());
     app.use(methodOverride());
     app.set('views', './app/views');

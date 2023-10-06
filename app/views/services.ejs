@@ -1,3 +1,9 @@
+<!-- Stdudent Name: Nusratullah Mohammadi
+    ID: 301333015
+    File Name: Services.ejs
+    Date: October 5, 2023
+-->
+
 <%- include ('partials/header.ejs') %>
 <%- include ('partials/main_nav.ejs') %>
 
@@ -5,23 +11,32 @@
   <div class="jumbotron">
     <h1 class="display-4">Services</h1>
     <p>I offer a wide range of services to meet your needs:</p>
-    <ul>
-      <li>
-        <h4>Web Development</h4>
-        <p>I create responsive and user-friendly websites.</p>
-        <img src="/web-development.jpg" alt="Web Development" class="img-thumbnail">
-      </li>
-      <li>
-        <h4>Mobile App Development</h4>
-        <p>I design and develop mobile applications for iOS and Android.</p>
-        <img src="/mobile-apps.jpg" alt="Mobile App Development" class="img-thumbnail">
-      </li>
-      <li>
-        <h4>General Programming</h4>
-        <p>I provide programming solutions for various platforms.</p>
-        <img src="/programming.jpg" alt="General Programming" class="img-thumbnail">
-      </li>
-    </ul>
+    
+    <!-- Service Section -->
+    <div class="service-section">
+      <!-- Service 1 -->
+      <div class="service">
+        <h4 class="service-title">Web Development</h4>
+        <p class="service-description">I create responsive and user-friendly websites.</p>
+        <img src="/img/responsive-websites.jpg" alt="Web Development" class="service-image"><br><br>
+      </div>
+      
+      <!-- Service 2 -->
+      <div class="service">
+        <h4 class="service-title">Mobile App Development</h4>
+        <p class="service-description">I design and develop mobile applications for iOS and Android.</p>
+        <img src="/img/mobile-design.jpg" alt="Mobile App Development" class="service-image"><br><br>
+      </div>
+      
+      <!-- Service 3 -->
+      <div class="service">
+        <h4 class="service-title">General Programming</h4>
+        <p class="service-description">I provide programming solutions for various platforms.</p>
+        <img src="/img/coding.jpg" alt="General Programming" class="service-image">
+      </div>
+    </div>
+    <!-- End of Service Section -->
+    
   </div>
 </main>
 
